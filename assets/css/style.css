@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*  removed(.) in header body a p and footer tags to change to meet html Semantics standards */
 body {
     background-color: #d9dcd6;
 }
@@ -70,7 +70,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* added section and aside */
 section.content {
     width: 75%;
     display: inline-block;
@@ -106,7 +106,7 @@ aside.benefits img {
     max-width: 150px;
 }
 
-
+/* changed to id (#) also joined attributes with , to clean up css */
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing { 
@@ -118,14 +118,14 @@ aside.benefits img {
     color: #ffffff;
 }
 
-
+/*joined attributes with , to clean up css  */
 #search-engine-optimization img,
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
 
-
+/*  joined attributes with , to clean up css*/
 #search-engine-optimization h2,
 #online-reputation-management h2,
 #social-media-marketing h2 {
@@ -133,7 +133,7 @@ aside.benefits img {
     font-size: 36px;
 }
 
-/* footer */
+/* footer removed(.)*/
 footer {
     padding: 30px;
     clear: both;
